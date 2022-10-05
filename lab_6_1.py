@@ -48,7 +48,7 @@ def random_graph(vertices_count: int, edges_count: int) -> nx.Graph:
 
 
 # Generating graph
-my_graph = random_graph(100, 200)
+my_graph = random_graph(100, 500)
 
 # Print paths
 print(nx.single_source_dijkstra(my_graph, 7)[1])
